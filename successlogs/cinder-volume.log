@@ -1,0 +1,347 @@
+2014-11-19 09:01:59.862 32610 DEBUG stevedore.extension [-] found extension EntryPoint.parse('qpid = oslo.messaging._drivers.impl_qpid:QpidDriver') _load_plugins /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/stevedore/extension.py:156
+2014-11-19 09:01:59.863 32610 DEBUG stevedore.extension [-] found extension EntryPoint.parse('amqp = oslo.messaging._drivers.protocols.amqp:ProtonDriver') _load_plugins /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/stevedore/extension.py:156
+2014-11-19 09:01:59.863 32610 DEBUG stevedore.extension [-] found extension EntryPoint.parse('kombu = oslo.messaging._drivers.impl_rabbit:RabbitDriver') _load_plugins /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/stevedore/extension.py:156
+2014-11-19 09:01:59.863 32610 DEBUG stevedore.extension [-] found extension EntryPoint.parse('rabbit = oslo.messaging._drivers.impl_rabbit:RabbitDriver') _load_plugins /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/stevedore/extension.py:156
+2014-11-19 09:01:59.913 32610 DEBUG stevedore.extension [-] found extension EntryPoint.parse('fake = oslo.messaging._drivers.impl_fake:FakeDriver') _load_plugins /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/stevedore/extension.py:156
+2014-11-19 09:01:59.913 32610 DEBUG stevedore.extension [-] found extension EntryPoint.parse('zmq = oslo.messaging._drivers.impl_zmq:ZmqDriver') _load_plugins /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/stevedore/extension.py:156
+2014-11-19 09:01:59.913 32610 DEBUG stevedore.extension [-] found extension EntryPoint.parse('log = oslo.messaging.notify._impl_log:LogDriver') _load_plugins /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/stevedore/extension.py:156
+2014-11-19 09:01:59.914 32610 DEBUG stevedore.extension [-] found extension EntryPoint.parse('messagingv2 = oslo.messaging.notify._impl_messaging:MessagingV2Driver') _load_plugins /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/stevedore/extension.py:156
+2014-11-19 09:01:59.914 32610 DEBUG stevedore.extension [-] found extension EntryPoint.parse('noop = oslo.messaging.notify._impl_noop:NoOpDriver') _load_plugins /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/stevedore/extension.py:156
+2014-11-19 09:01:59.914 32610 DEBUG stevedore.extension [-] found extension EntryPoint.parse('routing = oslo.messaging.notify._impl_routing:RoutingDriver') _load_plugins /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/stevedore/extension.py:156
+2014-11-19 09:01:59.914 32610 DEBUG stevedore.extension [-] found extension EntryPoint.parse('test = oslo.messaging.notify._impl_test:TestDriver') _load_plugins /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/stevedore/extension.py:156
+2014-11-19 09:01:59.915 32610 DEBUG stevedore.extension [-] found extension EntryPoint.parse('messaging = oslo.messaging.notify._impl_messaging:MessagingDriver') _load_plugins /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/stevedore/extension.py:156
+2014-11-19 09:01:59.915 32610 DEBUG stevedore.extension [-] found extension EntryPoint.parse('cinder.openstack.common.notifier.no_op_notifier = oslo.messaging.notify._impl_noop:NoOpDriver') _load_plugins /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/stevedore/extension.py:156
+2014-11-19 09:01:59.915 32610 DEBUG stevedore.extension [-] found extension EntryPoint.parse('cinder.openstack.common.notifier.log_notifier = oslo.messaging.notify._impl_log:LogDriver') _load_plugins /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/stevedore/extension.py:156
+2014-11-19 09:01:59.915 32610 DEBUG stevedore.extension [-] found extension EntryPoint.parse('cinder.openstack.common.notifier.test_notifier = oslo.messaging.notify._impl_test:TestDriver') _load_plugins /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/stevedore/extension.py:156
+2014-11-19 09:01:59.915 32610 DEBUG stevedore.extension [-] found extension EntryPoint.parse('cinder.openstack.common.notifier.rpc_notifier2 = oslo.messaging.notify._impl_messaging:MessagingV2Driver') _load_plugins /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/stevedore/extension.py:156
+2014-11-19 09:01:59.916 32610 DEBUG stevedore.extension [-] found extension EntryPoint.parse('cinder.openstack.common.notifier.rpc_notifier = oslo.messaging.notify._impl_messaging:MessagingDriver') _load_plugins /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/stevedore/extension.py:156
+2014-11-19 09:01:59.950 32610 INFO cinder.openstack.common.service [-] Starting 1 workers
+2014-11-19 09:01:59.952 32610 INFO cinder.openstack.common.service [-] Started child 32616
+2014-11-19 09:01:59.953 32610 DEBUG cinder.openstack.common.service [-] Full set of CONF: wait /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/cinder/openstack/common/service.py:384
+2014-11-19 09:01:59.953 32610 DEBUG cinder.openstack.common.service [-] ******************************************************************************** log_opt_values /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/oslo/config/cfg.py:1979
+2014-11-19 09:01:59.954 32610 DEBUG cinder.openstack.common.service [-] Configuration options gathered from: log_opt_values /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/oslo/config/cfg.py:1980
+2014-11-19 09:01:59.954 32610 DEBUG cinder.openstack.common.service [-] command line args: ['--config-dir', '/etc/cinder'] log_opt_values /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/oslo/config/cfg.py:1981
+2014-11-19 09:01:59.954 32616 AUDIT cinder.service [-] Starting cinder-volume node (version 2014.1.4)
+2014-11-19 09:01:59.954 32610 DEBUG cinder.openstack.common.service [-] config files: ['/etc/cinder/cinder.conf'] log_opt_values /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/oslo/config/cfg.py:1982
+2014-11-19 09:01:59.954 32610 DEBUG cinder.openstack.common.service [-] ================================================================================ log_opt_values /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/oslo/config/cfg.py:1983
+2014-11-19 09:01:59.955 32616 INFO cinder.volume.manager [req-5e4444ee-37ad-4e2d-91ea-c4d2444ec4eb - - - - -] Starting volume driver LVMISCSIDriver (2.0.0)
+2014-11-19 09:01:59.955 32610 DEBUG cinder.openstack.common.service [-] allowed_direct_url_schemes     = [] log_opt_values /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/oslo/config/cfg.py:1992
+2014-11-19 09:01:59.955 32610 DEBUG cinder.openstack.common.service [-] amqp_auto_delete               = False log_opt_values /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/oslo/config/cfg.py:1992
+2014-11-19 09:01:59.956 32610 DEBUG cinder.openstack.common.service [-] amqp_durable_queues            = False log_opt_values /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/oslo/config/cfg.py:1992
+2014-11-19 09:01:59.956 32616 DEBUG cinder.openstack.common.processutils [req-5e4444ee-37ad-4e2d-91ea-c4d2444ec4eb - - - - -] Running cmd (subprocess): sudo cinder-rootwrap /etc/cinder/rootwrap.conf env LC_ALL=C vgs --noheadings -o name cinder-volumes execute /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/cinder/openstack/common/processutils.py:147
+2014-11-19 09:01:59.956 32610 DEBUG cinder.openstack.common.service [-] api_paste_config               = api-paste.ini log_opt_values /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/oslo/config/cfg.py:1992
+2014-11-19 09:01:59.956 32610 DEBUG cinder.openstack.common.service [-] api_rate_limit                 = True log_opt_values /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/oslo/config/cfg.py:1992
+2014-11-19 09:01:59.956 32610 DEBUG cinder.openstack.common.service [-] auth_strategy                  = keystone log_opt_values /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/oslo/config/cfg.py:1992
+2014-11-19 09:01:59.957 32610 DEBUG cinder.openstack.common.service [-] backdoor_port                  = None log_opt_values /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/oslo/config/cfg.py:1992
+2014-11-19 09:01:59.957 32610 DEBUG cinder.openstack.common.service [-] backup_api_class               = cinder.backup.api.API log_opt_values /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/oslo/config/cfg.py:1992
+2014-11-19 09:01:59.957 32610 DEBUG cinder.openstack.common.service [-] backup_manager                 = cinder.backup.manager.BackupManager log_opt_values /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/oslo/config/cfg.py:1992
+2014-11-19 09:01:59.958 32610 DEBUG cinder.openstack.common.service [-] backup_name_template           = backup-%s log_opt_values /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/oslo/config/cfg.py:1992
+2014-11-19 09:01:59.958 32610 DEBUG cinder.openstack.common.service [-] backup_topic                   = cinder-backup log_opt_values /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/oslo/config/cfg.py:1992
+2014-11-19 09:01:59.958 32610 DEBUG cinder.openstack.common.service [-] cloned_volume_same_az          = True log_opt_values /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/oslo/config/cfg.py:1992
+2014-11-19 09:01:59.958 32610 DEBUG cinder.openstack.common.service [-] compute_api_class              = cinder.compute.nova.API log_opt_values /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/oslo/config/cfg.py:1992
+2014-11-19 09:01:59.959 32610 DEBUG cinder.openstack.common.service [-] config_dir                     = /etc/cinder log_opt_values /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/oslo/config/cfg.py:1992
+2014-11-19 09:01:59.959 32610 DEBUG cinder.openstack.common.service [-] config_file                    = ['/etc/cinder/cinder.conf'] log_opt_values /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/oslo/config/cfg.py:1992
+2014-11-19 09:01:59.959 32610 DEBUG cinder.openstack.common.service [-] control_exchange               = openstack log_opt_values /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/oslo/config/cfg.py:1992
+2014-11-19 09:01:59.959 32610 DEBUG cinder.openstack.common.service [-] db_backend                     = sqlalchemy log_opt_values /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/oslo/config/cfg.py:1992
+2014-11-19 09:01:59.960 32610 DEBUG cinder.openstack.common.service [-] db_driver                      = cinder.db log_opt_values /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/oslo/config/cfg.py:1992
+2014-11-19 09:01:59.960 32610 DEBUG cinder.openstack.common.service [-] debug                          = True log_opt_values /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/oslo/config/cfg.py:1992
+2014-11-19 09:01:59.960 32610 DEBUG cinder.openstack.common.service [-] default_availability_zone      = None log_opt_values /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/oslo/config/cfg.py:1992
+2014-11-19 09:01:59.961 32610 DEBUG cinder.openstack.common.service [-] default_log_levels             = ['amqp=WARN', 'amqplib=WARN', 'boto=WARN', 'qpid=WARN', 'sqlalchemy=WARN', 'suds=INFO', 'oslo.messaging=INFO', 'iso8601=WARN', 'requests.packages.urllib3.connectionpool=WARN'] log_opt_values /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/oslo/config/cfg.py:1992
+2014-11-19 09:01:59.961 32610 DEBUG cinder.openstack.common.service [-] default_volume_type            = None log_opt_values /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/oslo/config/cfg.py:1992
+2014-11-19 09:01:59.961 32610 DEBUG cinder.openstack.common.service [-] disable_process_locking        = False log_opt_values /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/oslo/config/cfg.py:1992
+2014-11-19 09:01:59.961 32610 DEBUG cinder.openstack.common.service [-] enable_new_services            = True log_opt_values /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/oslo/config/cfg.py:1992
+2014-11-19 09:01:59.962 32610 DEBUG cinder.openstack.common.service [-] enable_v1_api                  = True log_opt_values /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/oslo/config/cfg.py:1992
+2014-11-19 09:01:59.962 32610 DEBUG cinder.openstack.common.service [-] enable_v2_api                  = True log_opt_values /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/oslo/config/cfg.py:1992
+2014-11-19 09:01:59.962 32610 DEBUG cinder.openstack.common.service [-] enabled_backends               = None log_opt_values /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/oslo/config/cfg.py:1992
+2014-11-19 09:01:59.963 32610 DEBUG cinder.openstack.common.service [-] extra_capabilities             = {} log_opt_values /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/oslo/config/cfg.py:1992
+2014-11-19 09:01:59.963 32610 DEBUG cinder.openstack.common.service [-] fake_rabbit                    = False log_opt_values /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/oslo/config/cfg.py:1992
+2014-11-19 09:01:59.963 32610 DEBUG cinder.openstack.common.service [-] fatal_deprecations             = False log_opt_values /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/oslo/config/cfg.py:1992
+2014-11-19 09:01:59.963 32610 DEBUG cinder.openstack.common.service [-] fatal_exception_format_errors  = False log_opt_values /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/oslo/config/cfg.py:1992
+2014-11-19 09:01:59.964 32610 DEBUG cinder.openstack.common.service [-] glance_api_insecure            = False log_opt_values /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/oslo/config/cfg.py:1992
+2014-11-19 09:01:59.964 32610 DEBUG cinder.openstack.common.service [-] glance_api_servers             = ['10.0.0.1:9292'] log_opt_values /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/oslo/config/cfg.py:1992
+2014-11-19 09:01:59.965 32610 DEBUG cinder.openstack.common.service [-] glance_api_ssl_compression     = False log_opt_values /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/oslo/config/cfg.py:1992
+2014-11-19 09:01:59.965 32610 DEBUG cinder.openstack.common.service [-] glance_api_version             = 1 log_opt_values /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/oslo/config/cfg.py:1992
+2014-11-19 09:01:59.965 32610 DEBUG cinder.openstack.common.service [-] glance_host                    = 10.0.0.1 log_opt_values /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/oslo/config/cfg.py:1992
+2014-11-19 09:01:59.965 32610 DEBUG cinder.openstack.common.service [-] glance_num_retries             = 0 log_opt_values /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/oslo/config/cfg.py:1992
+2014-11-19 09:01:59.966 32610 DEBUG cinder.openstack.common.service [-] glance_port                    = 9292 log_opt_values /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/oslo/config/cfg.py:1992
+2014-11-19 09:01:59.966 32610 DEBUG cinder.openstack.common.service [-] glance_request_timeout         = None log_opt_values /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/oslo/config/cfg.py:1992
+2014-11-19 09:01:59.966 32610 DEBUG cinder.openstack.common.service [-] host                           = controller1 log_opt_values /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/oslo/config/cfg.py:1992
+2014-11-19 09:01:59.966 32610 DEBUG cinder.openstack.common.service [-] iet_conf                       = /etc/iet/ietd.conf log_opt_values /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/oslo/config/cfg.py:1992
+2014-11-19 09:01:59.967 32610 DEBUG cinder.openstack.common.service [-] image_conversion_dir           = /var/lib/cinder/conversion log_opt_values /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/oslo/config/cfg.py:1992
+2014-11-19 09:01:59.967 32610 DEBUG cinder.openstack.common.service [-] instance_format                = [instance: %(uuid)s]  log_opt_values /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/oslo/config/cfg.py:1992
+2014-11-19 09:01:59.967 32610 DEBUG cinder.openstack.common.service [-] instance_uuid_format           = [instance: %(uuid)s]  log_opt_values /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/oslo/config/cfg.py:1992
+2014-11-19 09:01:59.968 32610 DEBUG cinder.openstack.common.service [-] iscsi_helper                   = tgtadm log_opt_values /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/oslo/config/cfg.py:1992
+2014-11-19 09:01:59.968 32610 DEBUG cinder.openstack.common.service [-] iscsi_iotype                   = fileio log_opt_values /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/oslo/config/cfg.py:1992
+2014-11-19 09:01:59.968 32610 DEBUG cinder.openstack.common.service [-] iscsi_ip_address               = 10.0.0.1 log_opt_values /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/oslo/config/cfg.py:1992
+2014-11-19 09:01:59.968 32610 DEBUG cinder.openstack.common.service [-] iscsi_num_targets              = 100 log_opt_values /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/oslo/config/cfg.py:1992
+2014-11-19 09:01:59.969 32610 DEBUG cinder.openstack.common.service [-] iscsi_port                     = 3260 log_opt_values /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/oslo/config/cfg.py:1992
+2014-11-19 09:01:59.969 32610 DEBUG cinder.openstack.common.service [-] iscsi_target_prefix            = iqn.2010-10.org.openstack: log_opt_values /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/oslo/config/cfg.py:1992
+2014-11-19 09:01:59.969 32610 DEBUG cinder.openstack.common.service [-] iser_helper                    = tgtadm log_opt_values /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/oslo/config/cfg.py:1992
+2014-11-19 09:01:59.970 32610 DEBUG cinder.openstack.common.service [-] iser_ip_address                = 10.0.0.1 log_opt_values /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/oslo/config/cfg.py:1992
+2014-11-19 09:01:59.970 32610 DEBUG cinder.openstack.common.service [-] iser_num_targets               = 100 log_opt_values /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/oslo/config/cfg.py:1992
+2014-11-19 09:01:59.970 32610 DEBUG cinder.openstack.common.service [-] iser_port                      = 3260 log_opt_values /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/oslo/config/cfg.py:1992
+2014-11-19 09:01:59.970 32610 DEBUG cinder.openstack.common.service [-] iser_target_prefix             = iqn.2010-10.org.openstack: log_opt_values /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/oslo/config/cfg.py:1992
+2014-11-19 09:01:59.971 32610 DEBUG cinder.openstack.common.service [-] kombu_reconnect_delay          = 1.0 log_opt_values /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/oslo/config/cfg.py:1992
+2014-11-19 09:01:59.971 32610 DEBUG cinder.openstack.common.service [-] kombu_ssl_ca_certs             =  log_opt_values /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/oslo/config/cfg.py:1992
+2014-11-19 09:01:59.971 32610 DEBUG cinder.openstack.common.service [-] kombu_ssl_certfile             =  log_opt_values /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/oslo/config/cfg.py:1992
+2014-11-19 09:01:59.971 32610 DEBUG cinder.openstack.common.service [-] kombu_ssl_keyfile              =  log_opt_values /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/oslo/config/cfg.py:1992
+2014-11-19 09:01:59.972 32610 DEBUG cinder.openstack.common.service [-] kombu_ssl_version              =  log_opt_values /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/oslo/config/cfg.py:1992
+2014-11-19 09:01:59.972 32610 DEBUG cinder.openstack.common.service [-] lio_initiator_iqns             =  log_opt_values /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/oslo/config/cfg.py:1992
+2014-11-19 09:01:59.972 32610 DEBUG cinder.openstack.common.service [-] lock_path                      = /var/lock/cinder log_opt_values /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/oslo/config/cfg.py:1992
+2014-11-19 09:01:59.973 32610 DEBUG cinder.openstack.common.service [-] log_config_append              = None log_opt_values /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/oslo/config/cfg.py:1992
+2014-11-19 09:01:59.973 32610 DEBUG cinder.openstack.common.service [-] log_date_format                = %Y-%m-%d %H:%M:%S log_opt_values /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/oslo/config/cfg.py:1992
+2014-11-19 09:01:59.973 32610 DEBUG cinder.openstack.common.service [-] log_dir                        = /var/log/cinder log_opt_values /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/oslo/config/cfg.py:1992
+2014-11-19 09:01:59.973 32610 DEBUG cinder.openstack.common.service [-] log_file                       = None log_opt_values /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/oslo/config/cfg.py:1992
+2014-11-19 09:01:59.974 32610 DEBUG cinder.openstack.common.service [-] log_format                     = None log_opt_values /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/oslo/config/cfg.py:1992
+2014-11-19 09:01:59.974 32610 DEBUG cinder.openstack.common.service [-] logging_context_format_string  = %(asctime)s.%(msecs)03d %(process)d %(levelname)s %(name)s [%(request_id)s %(user_identity)s] %(instance)s%(message)s log_opt_values /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/oslo/config/cfg.py:1992
+2014-11-19 09:01:59.974 32610 DEBUG cinder.openstack.common.service [-] logging_debug_format_suffix    = %(funcName)s %(pathname)s:%(lineno)d log_opt_values /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/oslo/config/cfg.py:1992
+2014-11-19 09:01:59.974 32610 DEBUG cinder.openstack.common.service [-] logging_default_format_string  = %(asctime)s.%(msecs)03d %(process)d %(levelname)s %(name)s [-] %(instance)s%(message)s log_opt_values /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/oslo/config/cfg.py:1992
+2014-11-19 09:01:59.975 32610 DEBUG cinder.openstack.common.service [-] logging_exception_prefix       = %(asctime)s.%(msecs)03d %(process)d TRACE %(name)s %(instance)s log_opt_values /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/oslo/config/cfg.py:1992
+2014-11-19 09:01:59.975 32610 DEBUG cinder.openstack.common.service [-] lvm_mirrors                    = 0 log_opt_values /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/oslo/config/cfg.py:1992
+2014-11-19 09:01:59.975 32610 DEBUG cinder.openstack.common.service [-] lvm_type                       = default log_opt_values /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/oslo/config/cfg.py:1992
+2014-11-19 09:01:59.975 32610 DEBUG cinder.openstack.common.service [-] max_age                        = 0 log_opt_values /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/oslo/config/cfg.py:1992
+2014-11-19 09:01:59.976 32610 DEBUG cinder.openstack.common.service [-] max_header_line                = 16384 log_opt_values /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/oslo/config/cfg.py:1992
+2014-11-19 09:01:59.976 32610 DEBUG cinder.openstack.common.service [-] migration_create_volume_timeout_secs = 300 log_opt_values /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/oslo/config/cfg.py:1992
+2014-11-19 09:01:59.976 32610 DEBUG cinder.openstack.common.service [-] monkey_patch                   = False log_opt_values /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/oslo/config/cfg.py:1992
+2014-11-19 09:01:59.977 32610 DEBUG cinder.openstack.common.service [-] monkey_patch_modules           = [] log_opt_values /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/oslo/config/cfg.py:1992
+2014-11-19 09:01:59.977 32610 DEBUG cinder.openstack.common.service [-] my_ip                          = 10.0.0.1 log_opt_values /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/oslo/config/cfg.py:1992
+2014-11-19 09:01:59.977 32610 DEBUG cinder.openstack.common.service [-] no_snapshot_gb_quota           = False log_opt_values /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/oslo/config/cfg.py:1992
+2014-11-19 09:01:59.977 32610 DEBUG cinder.openstack.common.service [-] notification_driver            = [] log_opt_values /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/oslo/config/cfg.py:1992
+2014-11-19 09:01:59.978 32610 DEBUG cinder.openstack.common.service [-] notification_topics            = ['notifications'] log_opt_values /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/oslo/config/cfg.py:1992
+2014-11-19 09:01:59.978 32610 DEBUG cinder.openstack.common.service [-] num_iser_scan_tries            = 3 log_opt_values /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/oslo/config/cfg.py:1992
+2014-11-19 09:01:59.978 32610 DEBUG cinder.openstack.common.service [-] num_shell_tries                = 3 log_opt_values /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/oslo/config/cfg.py:1992
+2014-11-19 09:01:59.978 32610 DEBUG cinder.openstack.common.service [-] num_volume_device_scan_tries   = 3 log_opt_values /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/oslo/config/cfg.py:1992
+2014-11-19 09:01:59.979 32610 DEBUG cinder.openstack.common.service [-] osapi_volume_ext_list          = [] log_opt_values /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/oslo/config/cfg.py:1992
+2014-11-19 09:01:59.979 32610 DEBUG cinder.openstack.common.service [-] osapi_volume_extension         = ['cinder.api.contrib.standard_extensions'] log_opt_values /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/oslo/config/cfg.py:1992
+2014-11-19 09:01:59.979 32610 DEBUG cinder.openstack.common.service [-] osapi_volume_listen            = 0.0.0.0 log_opt_values /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/oslo/config/cfg.py:1992
+2014-11-19 09:01:59.980 32610 DEBUG cinder.openstack.common.service [-] osapi_volume_listen_port       = 8776 log_opt_values /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/oslo/config/cfg.py:1992
+2014-11-19 09:01:59.980 32610 DEBUG cinder.openstack.common.service [-] osapi_volume_workers           = None log_opt_values /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/oslo/config/cfg.py:1992
+2014-11-19 09:01:59.980 32610 DEBUG cinder.openstack.common.service [-] periodic_fuzzy_delay           = 60 log_opt_values /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/oslo/config/cfg.py:1992
+2014-11-19 09:01:59.980 32610 DEBUG cinder.openstack.common.service [-] periodic_interval              = 60 log_opt_values /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/oslo/config/cfg.py:1992
+2014-11-19 09:01:59.981 32610 DEBUG cinder.openstack.common.service [-] policy_default_rule            = default log_opt_values /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/oslo/config/cfg.py:1992
+2014-11-19 09:01:59.981 32610 DEBUG cinder.openstack.common.service [-] policy_file                    = policy.json log_opt_values /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/oslo/config/cfg.py:1992
+2014-11-19 09:01:59.981 32610 DEBUG cinder.openstack.common.service [-] publish_errors                 = False log_opt_values /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/oslo/config/cfg.py:1992
+2014-11-19 09:01:59.981 32610 DEBUG cinder.openstack.common.service [-] quota_driver                   = cinder.quota.DbQuotaDriver log_opt_values /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/oslo/config/cfg.py:1992
+2014-11-19 09:01:59.982 32610 DEBUG cinder.openstack.common.service [-] quota_gigabytes                = 1000 log_opt_values /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/oslo/config/cfg.py:1992
+2014-11-19 09:01:59.982 32610 DEBUG cinder.openstack.common.service [-] quota_snapshots                = 10 log_opt_values /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/oslo/config/cfg.py:1992
+2014-11-19 09:01:59.982 32610 DEBUG cinder.openstack.common.service [-] quota_volumes                  = 10 log_opt_values /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/oslo/config/cfg.py:1992
+2014-11-19 09:01:59.982 32610 DEBUG cinder.openstack.common.service [-] rabbit_ha_queues               = False log_opt_values /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/oslo/config/cfg.py:1992
+2014-11-19 09:01:59.983 32610 DEBUG cinder.openstack.common.service [-] rabbit_host                    = 10.0.0.1 log_opt_values /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/oslo/config/cfg.py:1992
+2014-11-19 09:01:59.983 32610 DEBUG cinder.openstack.common.service [-] rabbit_hosts                   = ['10.0.0.1:5672'] log_opt_values /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/oslo/config/cfg.py:1992
+2014-11-19 09:01:59.984 32610 DEBUG cinder.openstack.common.service [-] rabbit_login_method            = AMQPLAIN log_opt_values /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/oslo/config/cfg.py:1992
+2014-11-19 09:01:59.984 32610 DEBUG cinder.openstack.common.service [-] rabbit_max_retries             = 0 log_opt_values /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/oslo/config/cfg.py:1992
+2014-11-19 09:01:59.984 32610 DEBUG cinder.openstack.common.service [-] rabbit_password                = **** log_opt_values /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/oslo/config/cfg.py:1992
+2014-11-19 09:01:59.984 32610 DEBUG cinder.openstack.common.service [-] rabbit_port                    = 5672 log_opt_values /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/oslo/config/cfg.py:1992
+2014-11-19 09:01:59.985 32610 DEBUG cinder.openstack.common.service [-] rabbit_retry_backoff           = 2 log_opt_values /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/oslo/config/cfg.py:1992
+2014-11-19 09:01:59.985 32610 DEBUG cinder.openstack.common.service [-] rabbit_retry_interval          = 1 log_opt_values /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/oslo/config/cfg.py:1992
+2014-11-19 09:01:59.985 32610 DEBUG cinder.openstack.common.service [-] rabbit_use_ssl                 = False log_opt_values /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/oslo/config/cfg.py:1992
+2014-11-19 09:01:59.985 32610 DEBUG cinder.openstack.common.service [-] rabbit_userid                  = openstack log_opt_values /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/oslo/config/cfg.py:1992
+2014-11-19 09:01:59.986 32610 DEBUG cinder.openstack.common.service [-] rabbit_virtual_host            = / log_opt_values /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/oslo/config/cfg.py:1992
+2014-11-19 09:01:59.986 32610 DEBUG cinder.openstack.common.service [-] report_interval                = 10 log_opt_values /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/oslo/config/cfg.py:1992
+2014-11-19 09:01:59.986 32610 DEBUG cinder.openstack.common.service [-] reservation_expire             = 86400 log_opt_values /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/oslo/config/cfg.py:1992
+2014-11-19 09:01:59.986 32610 DEBUG cinder.openstack.common.service [-] reserved_percentage            = 0 log_opt_values /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/oslo/config/cfg.py:1992
+2014-11-19 09:01:59.987 32610 DEBUG cinder.openstack.common.service [-] rootwrap_config                = /etc/cinder/rootwrap.conf log_opt_values /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/oslo/config/cfg.py:1992
+2014-11-19 09:01:59.987 32610 DEBUG cinder.openstack.common.service [-] rpc_backend                    = rabbit log_opt_values /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/oslo/config/cfg.py:1992
+2014-11-19 09:01:59.987 32610 DEBUG cinder.openstack.common.service [-] rpc_conn_pool_size             = 30 log_opt_values /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/oslo/config/cfg.py:1992
+2014-11-19 09:01:59.988 32610 DEBUG cinder.openstack.common.service [-] rpc_response_timeout           = 60 log_opt_values /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/oslo/config/cfg.py:1992
+2014-11-19 09:01:59.988 32610 DEBUG cinder.openstack.common.service [-] run_external_periodic_tasks    = True log_opt_values /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/oslo/config/cfg.py:1992
+2014-11-19 09:01:59.988 32610 DEBUG cinder.openstack.common.service [-] scheduler_manager              = cinder.scheduler.manager.SchedulerManager log_opt_values /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/oslo/config/cfg.py:1992
+2014-11-19 09:01:59.988 32610 DEBUG cinder.openstack.common.service [-] scheduler_topic                = cinder-scheduler log_opt_values /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/oslo/config/cfg.py:1992
+2014-11-19 09:01:59.989 32610 DEBUG cinder.openstack.common.service [-] service_down_time              = 60 log_opt_values /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/oslo/config/cfg.py:1992
+2014-11-19 09:01:59.989 32610 DEBUG cinder.openstack.common.service [-] snapshot_name_template         = snapshot-%s log_opt_values /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/oslo/config/cfg.py:1992
+2014-11-19 09:01:59.989 32610 DEBUG cinder.openstack.common.service [-] snapshot_same_host             = True log_opt_values /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/oslo/config/cfg.py:1992
+2014-11-19 09:01:59.989 32610 DEBUG cinder.openstack.common.service [-] ssl_ca_file                    = None log_opt_values /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/oslo/config/cfg.py:1992
+2014-11-19 09:01:59.990 32610 DEBUG cinder.openstack.common.service [-] ssl_cert_file                  = None log_opt_values /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/oslo/config/cfg.py:1992
+2014-11-19 09:01:59.990 32610 DEBUG cinder.openstack.common.service [-] ssl_key_file                   = None log_opt_values /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/oslo/config/cfg.py:1992
+2014-11-19 09:01:59.990 32610 DEBUG cinder.openstack.common.service [-] state_path                     = /var/lib/cinder log_opt_values /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/oslo/config/cfg.py:1992
+2014-11-19 09:01:59.990 32610 DEBUG cinder.openstack.common.service [-] storage_availability_zone      = nova log_opt_values /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/oslo/config/cfg.py:1992
+2014-11-19 09:01:59.991 32610 DEBUG cinder.openstack.common.service [-] syslog_log_facility            = syslog log_opt_values /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/oslo/config/cfg.py:1992
+2014-11-19 09:01:59.991 32610 DEBUG cinder.openstack.common.service [-] tcp_keepidle                   = 600 log_opt_values /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/oslo/config/cfg.py:1992
+2014-11-19 09:01:59.991 32610 DEBUG cinder.openstack.common.service [-] transfer_api_class             = cinder.transfer.api.API log_opt_values /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/oslo/config/cfg.py:1992
+2014-11-19 09:01:59.992 32610 DEBUG cinder.openstack.common.service [-] transport_url                  = None log_opt_values /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/oslo/config/cfg.py:1992
+2014-11-19 09:01:59.992 32610 DEBUG cinder.openstack.common.service [-] until_refresh                  = 0 log_opt_values /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/oslo/config/cfg.py:1992
+2014-11-19 09:01:59.992 32610 DEBUG cinder.openstack.common.service [-] use_default_quota_class        = True log_opt_values /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/oslo/config/cfg.py:1992
+2014-11-19 09:01:59.992 32610 DEBUG cinder.openstack.common.service [-] use_multipath_for_image_xfer   = False log_opt_values /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/oslo/config/cfg.py:1992
+2014-11-19 09:01:59.993 32610 DEBUG cinder.openstack.common.service [-] use_stderr                     = True log_opt_values /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/oslo/config/cfg.py:1992
+2014-11-19 09:01:59.993 32610 DEBUG cinder.openstack.common.service [-] use_syslog                     = False log_opt_values /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/oslo/config/cfg.py:1992
+2014-11-19 09:01:59.993 32610 DEBUG cinder.openstack.common.service [-] use_syslog_rfc_format          = False log_opt_values /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/oslo/config/cfg.py:1992
+2014-11-19 09:01:59.993 32610 DEBUG cinder.openstack.common.service [-] verbose                        = True log_opt_values /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/oslo/config/cfg.py:1992
+2014-11-19 09:01:59.994 32610 DEBUG cinder.openstack.common.service [-] volume_api_class               = cinder.volume.api.API log_opt_values /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/oslo/config/cfg.py:1992
+2014-11-19 09:01:59.994 32610 DEBUG cinder.openstack.common.service [-] volume_backend_name            = None log_opt_values /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/oslo/config/cfg.py:1992
+2014-11-19 09:01:59.994 32610 DEBUG cinder.openstack.common.service [-] volume_clear                   = zero log_opt_values /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/oslo/config/cfg.py:1992
+2014-11-19 09:01:59.994 32610 DEBUG cinder.openstack.common.service [-] volume_clear_ionice            = None log_opt_values /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/oslo/config/cfg.py:1992
+2014-11-19 09:01:59.995 32610 DEBUG cinder.openstack.common.service [-] volume_clear_size              = 0 log_opt_values /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/oslo/config/cfg.py:1992
+2014-11-19 09:01:59.995 32610 DEBUG cinder.openstack.common.service [-] volume_dd_blocksize            = 1M log_opt_values /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/oslo/config/cfg.py:1992
+2014-11-19 09:01:59.995 32610 DEBUG cinder.openstack.common.service [-] volume_driver                  = cinder.volume.drivers.lvm.LVMISCSIDriver log_opt_values /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/oslo/config/cfg.py:1992
+2014-11-19 09:01:59.996 32610 DEBUG cinder.openstack.common.service [-] volume_group                   = cinder-volumes log_opt_values /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/oslo/config/cfg.py:1992
+2014-11-19 09:01:59.996 32610 DEBUG cinder.openstack.common.service [-] volume_manager                 = cinder.volume.manager.VolumeManager log_opt_values /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/oslo/config/cfg.py:1992
+2014-11-19 09:01:59.996 32610 DEBUG cinder.openstack.common.service [-] volume_name_template           = volume-%s log_opt_values /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/oslo/config/cfg.py:1992
+2014-11-19 09:01:59.996 32610 DEBUG cinder.openstack.common.service [-] volume_service_inithost_offload = False log_opt_values /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/oslo/config/cfg.py:1992
+2014-11-19 09:01:59.997 32610 DEBUG cinder.openstack.common.service [-] volume_topic                   = cinder-volume log_opt_values /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/oslo/config/cfg.py:1992
+2014-11-19 09:01:59.997 32610 DEBUG cinder.openstack.common.service [-] volume_usage_audit_period      = month log_opt_values /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/oslo/config/cfg.py:1992
+2014-11-19 09:01:59.997 32610 DEBUG cinder.openstack.common.service [-] volumes_dir                    = /var/lib/cinder/volumes log_opt_values /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/oslo/config/cfg.py:1992
+2014-11-19 09:01:59.997 32610 DEBUG cinder.openstack.common.service [-] zoning_mode                    = none log_opt_values /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/oslo/config/cfg.py:1992
+2014-11-19 09:01:59.998 32610 DEBUG cinder.openstack.common.service [-] fc-zone-manager.fc_fabric_names = None log_opt_values /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/oslo/config/cfg.py:2000
+2014-11-19 09:01:59.998 32610 DEBUG cinder.openstack.common.service [-] fc-zone-manager.fc_san_lookup_service = cinder.zonemanager.drivers.brocade.brcd_fc_san_lookup_service.BrcdFCSanLookupService log_opt_values /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/oslo/config/cfg.py:2000
+2014-11-19 09:01:59.998 32610 DEBUG cinder.openstack.common.service [-] fc-zone-manager.zone_driver    = cinder.zonemanager.drivers.brocade.brcd_fc_zone_driver.BrcdFCZoneDriver log_opt_values /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/oslo/config/cfg.py:2000
+2014-11-19 09:01:59.999 32610 DEBUG cinder.openstack.common.service [-] fc-zone-manager.zoning_policy  = initiator-target log_opt_values /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/oslo/config/cfg.py:2000
+2014-11-19 09:01:59.999 32610 DEBUG cinder.openstack.common.service [-] keymgr.api_class               = cinder.keymgr.conf_key_mgr.ConfKeyManager log_opt_values /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/oslo/config/cfg.py:2000
+2014-11-19 09:01:59.999 32610 DEBUG cinder.openstack.common.service [-] database.backend               = sqlalchemy log_opt_values /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/oslo/config/cfg.py:2000
+2014-11-19 09:02:00.000 32610 DEBUG cinder.openstack.common.service [-] database.use_tpool             = False log_opt_values /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/oslo/config/cfg.py:2000
+2014-11-19 09:02:00.000 32610 DEBUG cinder.openstack.common.service [-] ******************************************************************************** log_opt_values /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/oslo/config/cfg.py:2002
+2014-11-19 09:02:00.049 32616 DEBUG cinder.openstack.common.processutils [req-5e4444ee-37ad-4e2d-91ea-c4d2444ec4eb - - - - -] Result was 0 execute /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/cinder/openstack/common/processutils.py:171
+2014-11-19 09:02:00.050 32616 DEBUG cinder.openstack.common.processutils [req-5e4444ee-37ad-4e2d-91ea-c4d2444ec4eb - - - - -] Running cmd (subprocess): sudo cinder-rootwrap /etc/cinder/rootwrap.conf env LC_ALL=C pvs --noheadings --unit=g -o vg_name,name,size,free --separator : --nosuffix execute /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/cinder/openstack/common/processutils.py:147
+2014-11-19 09:02:00.116 32616 DEBUG cinder.openstack.common.processutils [req-5e4444ee-37ad-4e2d-91ea-c4d2444ec4eb - - - - -] Result was 0 execute /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/cinder/openstack/common/processutils.py:171
+2014-11-19 09:02:00.117 32616 DEBUG cinder.openstack.common.processutils [req-5e4444ee-37ad-4e2d-91ea-c4d2444ec4eb - - - - -] Running cmd (subprocess): sudo cinder-rootwrap /etc/cinder/rootwrap.conf env LC_ALL=C vgs --noheadings --unit=g -o name,size,free,lv_count,uuid --separator : --nosuffix cinder-volumes execute /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/cinder/openstack/common/processutils.py:147
+2014-11-19 09:02:00.180 32616 DEBUG cinder.openstack.common.processutils [req-5e4444ee-37ad-4e2d-91ea-c4d2444ec4eb - - - - -] Result was 0 execute /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/cinder/openstack/common/processutils.py:171
+2014-11-19 09:02:00.181 32616 DEBUG cinder.openstack.common.lockutils [req-5e4444ee-37ad-4e2d-91ea-c4d2444ec4eb - - - - -] Got semaphore "dbapi_backend" for method "__get_backend"... inner /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/cinder/openstack/common/lockutils.py:191
+2014-11-19 09:02:00.525 32616 DEBUG cinder.volume.manager [req-5e4444ee-37ad-4e2d-91ea-c4d2444ec4eb - - - - -] Re-exporting 1 volumes init_host /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/cinder/volume/manager.py:254
+2014-11-19 09:02:00.527 32616 INFO cinder.brick.iscsi.iscsi [req-5e4444ee-37ad-4e2d-91ea-c4d2444ec4eb - - - - -] Creating iscsi_target for: volume-a84073ef-4544-43a3-92d2-aa54b34928be
+2014-11-19 09:02:00.527 32616 DEBUG cinder.brick.iscsi.iscsi [req-5e4444ee-37ad-4e2d-91ea-c4d2444ec4eb - - - - -] Created volume path /var/lib/cinder/volumes/volume-a84073ef-4544-43a3-92d2-aa54b34928be,
+content: 
+                <target iqn.2010-10.org.openstack:volume-a84073ef-4544-43a3-92d2-aa54b34928be>
+                    backing-store /dev/cinder-volumes/volume-a84073ef-4544-43a3-92d2-aa54b34928be
+                    lld iscsi
+                </target>
+                   create_iscsi_target /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/cinder/brick/iscsi/iscsi.py:183
+2014-11-19 09:02:00.528 32616 DEBUG cinder.openstack.common.processutils [req-5e4444ee-37ad-4e2d-91ea-c4d2444ec4eb - - - - -] Running cmd (subprocess): sudo cinder-rootwrap /etc/cinder/rootwrap.conf tgt-admin --update iqn.2010-10.org.openstack:volume-a84073ef-4544-43a3-92d2-aa54b34928be execute /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/cinder/openstack/common/processutils.py:147
+2014-11-19 09:02:00.730 32616 DEBUG cinder.openstack.common.processutils [req-5e4444ee-37ad-4e2d-91ea-c4d2444ec4eb - - - - -] Result was 0 execute /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/cinder/openstack/common/processutils.py:171
+2014-11-19 09:02:00.732 32616 DEBUG cinder.brick.iscsi.iscsi [req-5e4444ee-37ad-4e2d-91ea-c4d2444ec4eb - - - - -] StdOut from tgt-admin --update:  create_iscsi_target /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/cinder/brick/iscsi/iscsi.py:197
+2014-11-19 09:02:00.732 32616 DEBUG cinder.brick.iscsi.iscsi [req-5e4444ee-37ad-4e2d-91ea-c4d2444ec4eb - - - - -] StdErr from tgt-admin --update:  create_iscsi_target /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/cinder/brick/iscsi/iscsi.py:198
+2014-11-19 09:02:00.733 32616 DEBUG cinder.openstack.common.processutils [req-5e4444ee-37ad-4e2d-91ea-c4d2444ec4eb - - - - -] Running cmd (subprocess): sudo cinder-rootwrap /etc/cinder/rootwrap.conf tgtadm --lld iscsi --op show --mode target execute /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/cinder/openstack/common/processutils.py:147
+2014-11-19 09:02:00.837 32616 DEBUG cinder.openstack.common.processutils [req-5e4444ee-37ad-4e2d-91ea-c4d2444ec4eb - - - - -] Result was 0 execute /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/cinder/openstack/common/processutils.py:171
+2014-11-19 09:02:00.838 32616 DEBUG cinder.brick.iscsi.iscsi [req-5e4444ee-37ad-4e2d-91ea-c4d2444ec4eb - - - - -] Targets after update: Target 1: iqn.2010-10.org.openstack:volume-a84073ef-4544-43a3-92d2-aa54b34928be
+    System information:
+        Driver: iscsi
+        State: ready
+    I_T nexus information:
+        I_T nexus: 31
+            Initiator: iqn.1993-08.org.debian:01:6d2ac72df2f7 alias: compute1
+            Connection: 0
+                IP Address: 10.0.1.1
+    LUN information:
+        LUN: 0
+            Type: controller
+            SCSI ID: IET     00010000
+            SCSI SN: beaf10
+            Size: 0 MB, Block size: 1
+            Online: Yes
+            Removable media: No
+            Prevent removal: No
+            Readonly: No
+            SWP: No
+            Thin-provisioning: No
+            Backing store type: null
+            Backing store path: None
+            Backing store flags: 
+        LUN: 1
+            Type: disk
+            SCSI ID: IET     00010001
+            SCSI SN: beaf11
+            Size: 5369 MB, Block size: 512
+            Online: Yes
+            Removable media: No
+            Prevent removal: No
+            Readonly: No
+            SWP: No
+            Thin-provisioning: No
+            Backing store type: rdwr
+            Backing store path: /dev/cinder-volumes/volume-a84073ef-4544-43a3-92d2-aa54b34928be
+            Backing store flags: 
+    Account information:
+    ACL information:
+        ALL
+ create_iscsi_target /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/cinder/brick/iscsi/iscsi.py:211
+2014-11-19 09:02:00.839 32616 DEBUG cinder.openstack.common.processutils [req-5e4444ee-37ad-4e2d-91ea-c4d2444ec4eb - - - - -] Running cmd (subprocess): sudo cinder-rootwrap /etc/cinder/rootwrap.conf tgt-admin --show execute /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/cinder/openstack/common/processutils.py:147
+2014-11-19 09:02:01.036 32616 DEBUG cinder.openstack.common.processutils [req-5e4444ee-37ad-4e2d-91ea-c4d2444ec4eb - - - - -] Result was 0 execute /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/cinder/openstack/common/processutils.py:171
+2014-11-19 09:02:01.038 32616 DEBUG cinder.openstack.common.processutils [req-5e4444ee-37ad-4e2d-91ea-c4d2444ec4eb - - - - -] Running cmd (subprocess): sudo cinder-rootwrap /etc/cinder/rootwrap.conf tgt-admin --show execute /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/cinder/openstack/common/processutils.py:147
+2014-11-19 09:02:01.235 32616 DEBUG cinder.openstack.common.processutils [req-5e4444ee-37ad-4e2d-91ea-c4d2444ec4eb - - - - -] Result was 0 execute /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/cinder/openstack/common/processutils.py:171
+2014-11-19 09:02:01.236 32616 DEBUG cinder.volume.manager [req-5e4444ee-37ad-4e2d-91ea-c4d2444ec4eb - - - - -] Resuming any in progress delete operations init_host /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/cinder/volume/manager.py:293
+2014-11-19 09:02:01.237 32616 INFO cinder.volume.manager [req-5e4444ee-37ad-4e2d-91ea-c4d2444ec4eb - - - - -] Updating volume status
+2014-11-19 09:02:01.237 32616 DEBUG cinder.volume.drivers.lvm [req-5e4444ee-37ad-4e2d-91ea-c4d2444ec4eb - - - - -] Updating volume stats _update_volume_stats /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/cinder/volume/drivers/lvm.py:346
+2014-11-19 09:02:01.238 32616 DEBUG cinder.openstack.common.processutils [req-5e4444ee-37ad-4e2d-91ea-c4d2444ec4eb - - - - -] Running cmd (subprocess): sudo cinder-rootwrap /etc/cinder/rootwrap.conf env LC_ALL=C vgs --noheadings --unit=g -o name,size,free,lv_count,uuid --separator : --nosuffix cinder-volumes execute /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/cinder/openstack/common/processutils.py:147
+2014-11-19 09:02:01.354 32616 DEBUG cinder.openstack.common.processutils [req-5e4444ee-37ad-4e2d-91ea-c4d2444ec4eb - - - - -] Result was 0 execute /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/cinder/openstack/common/processutils.py:171
+2014-11-19 09:02:01.356 32616 DEBUG cinder.manager [req-5e4444ee-37ad-4e2d-91ea-c4d2444ec4eb - - - - -] Notifying Schedulers of capabilities ... _publish_service_capabilities /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/cinder/manager.py:128
+2014-11-19 09:02:01.359 32616 INFO oslo.messaging._drivers.impl_rabbit [req-5e4444ee-37ad-4e2d-91ea-c4d2444ec4eb - - - - -] Connecting to AMQP server on 10.0.0.1:5672
+2014-11-19 09:02:01.384 32616 INFO oslo.messaging._drivers.impl_rabbit [req-5e4444ee-37ad-4e2d-91ea-c4d2444ec4eb - - - - -] Connected to AMQP server on 10.0.0.1:5672
+2014-11-19 09:02:01.398 32616 DEBUG cinder.service [-] Creating RPC server for service cinder-volume start /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/cinder/service.py:113
+2014-11-19 09:02:01.399 32616 DEBUG stevedore.extension [-] found extension EntryPoint.parse('blocking = oslo.messaging._executors.impl_blocking:BlockingExecutor') _load_plugins /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/stevedore/extension.py:156
+2014-11-19 09:02:01.399 32616 DEBUG stevedore.extension [-] found extension EntryPoint.parse('eventlet = oslo.messaging._executors.impl_eventlet:EventletExecutor') _load_plugins /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/stevedore/extension.py:156
+2014-11-19 09:02:01.402 32616 INFO oslo.messaging._drivers.impl_rabbit [-] Connecting to AMQP server on 10.0.0.1:5672
+2014-11-19 09:02:01.420 32616 INFO oslo.messaging._drivers.impl_rabbit [-] Connected to AMQP server on 10.0.0.1:5672
+2014-11-19 09:02:06.401 32616 WARNING cinder.context [-] Arguments dropped when creating context: {u'user': u'200d249486f547deba4ec519a8cf1a3a', u'tenant': u'8303ff367e8e45a3adc495a8d7215363', u'user_identity': u'200d249486f547deba4ec519a8cf1a3a 8303ff367e8e45a3adc495a8d7215363 - - -'}
+2014-11-19 09:02:06.459 32616 DEBUG cinder.volume.manager [req-bc58aeab-22a7-4c58-ad61-24c2edfacd59 200d249486f547deba4ec519a8cf1a3a 8303ff367e8e45a3adc495a8d7215363 - - -] Volume a84073ef-4544-43a3-92d2-aa54b34928be: creating export initialize_connection /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/cinder/volume/manager.py:788
+2014-11-19 09:02:06.462 32616 INFO cinder.brick.iscsi.iscsi [req-bc58aeab-22a7-4c58-ad61-24c2edfacd59 200d249486f547deba4ec519a8cf1a3a 8303ff367e8e45a3adc495a8d7215363 - - -] Creating iscsi_target for: volume-a84073ef-4544-43a3-92d2-aa54b34928be
+2014-11-19 09:02:06.462 32616 DEBUG cinder.brick.iscsi.iscsi [req-bc58aeab-22a7-4c58-ad61-24c2edfacd59 200d249486f547deba4ec519a8cf1a3a 8303ff367e8e45a3adc495a8d7215363 - - -] Created volume path /var/lib/cinder/volumes/volume-a84073ef-4544-43a3-92d2-aa54b34928be,
+content: 
+                                <target iqn.2010-10.org.openstack:volume-a84073ef-4544-43a3-92d2-aa54b34928be>
+                                    backing-store /dev/cinder-volumes/volume-a84073ef-4544-43a3-92d2-aa54b34928be
+                                    lld iscsi
+                                    IncomingUser pHvf4naY7BNoTfEGP9LE ncSKAC52sMDLyDLWVHqU
+                                </target>
+                                  create_iscsi_target /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/cinder/brick/iscsi/iscsi.py:183
+2014-11-19 09:02:06.464 32616 DEBUG cinder.openstack.common.processutils [req-bc58aeab-22a7-4c58-ad61-24c2edfacd59 200d249486f547deba4ec519a8cf1a3a 8303ff367e8e45a3adc495a8d7215363 - - -] Running cmd (subprocess): sudo cinder-rootwrap /etc/cinder/rootwrap.conf tgt-admin --update iqn.2010-10.org.openstack:volume-a84073ef-4544-43a3-92d2-aa54b34928be execute /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/cinder/openstack/common/processutils.py:147
+2014-11-19 09:02:06.667 32616 DEBUG cinder.openstack.common.processutils [req-bc58aeab-22a7-4c58-ad61-24c2edfacd59 200d249486f547deba4ec519a8cf1a3a 8303ff367e8e45a3adc495a8d7215363 - - -] Result was 0 execute /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/cinder/openstack/common/processutils.py:171
+2014-11-19 09:02:06.668 32616 DEBUG cinder.brick.iscsi.iscsi [req-bc58aeab-22a7-4c58-ad61-24c2edfacd59 200d249486f547deba4ec519a8cf1a3a 8303ff367e8e45a3adc495a8d7215363 - - -] StdOut from tgt-admin --update:  create_iscsi_target /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/cinder/brick/iscsi/iscsi.py:197
+2014-11-19 09:02:06.668 32616 DEBUG cinder.brick.iscsi.iscsi [req-bc58aeab-22a7-4c58-ad61-24c2edfacd59 200d249486f547deba4ec519a8cf1a3a 8303ff367e8e45a3adc495a8d7215363 - - -] StdErr from tgt-admin --update:  create_iscsi_target /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/cinder/brick/iscsi/iscsi.py:198
+2014-11-19 09:02:06.669 32616 DEBUG cinder.openstack.common.processutils [req-bc58aeab-22a7-4c58-ad61-24c2edfacd59 200d249486f547deba4ec519a8cf1a3a 8303ff367e8e45a3adc495a8d7215363 - - -] Running cmd (subprocess): sudo cinder-rootwrap /etc/cinder/rootwrap.conf tgtadm --lld iscsi --op show --mode target execute /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/cinder/openstack/common/processutils.py:147
+2014-11-19 09:02:06.773 32616 DEBUG cinder.openstack.common.processutils [req-bc58aeab-22a7-4c58-ad61-24c2edfacd59 200d249486f547deba4ec519a8cf1a3a 8303ff367e8e45a3adc495a8d7215363 - - -] Result was 0 execute /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/cinder/openstack/common/processutils.py:171
+2014-11-19 09:02:06.774 32616 DEBUG cinder.brick.iscsi.iscsi [req-bc58aeab-22a7-4c58-ad61-24c2edfacd59 200d249486f547deba4ec519a8cf1a3a 8303ff367e8e45a3adc495a8d7215363 - - -] Targets after update: Target 1: iqn.2010-10.org.openstack:volume-a84073ef-4544-43a3-92d2-aa54b34928be
+    System information:
+        Driver: iscsi
+        State: ready
+    I_T nexus information:
+        I_T nexus: 31
+            Initiator: iqn.1993-08.org.debian:01:6d2ac72df2f7 alias: compute1
+            Connection: 0
+                IP Address: 10.0.1.1
+    LUN information:
+        LUN: 0
+            Type: controller
+            SCSI ID: IET     00010000
+            SCSI SN: beaf10
+            Size: 0 MB, Block size: 1
+            Online: Yes
+            Removable media: No
+            Prevent removal: No
+            Readonly: No
+            SWP: No
+            Thin-provisioning: No
+            Backing store type: null
+            Backing store path: None
+            Backing store flags: 
+        LUN: 1
+            Type: disk
+            SCSI ID: IET     00010001
+            SCSI SN: beaf11
+            Size: 5369 MB, Block size: 512
+            Online: Yes
+            Removable media: No
+            Prevent removal: No
+            Readonly: No
+            SWP: No
+            Thin-provisioning: No
+            Backing store type: rdwr
+            Backing store path: /dev/cinder-volumes/volume-a84073ef-4544-43a3-92d2-aa54b34928be
+            Backing store flags: 
+    Account information:
+    ACL information:
+        ALL
+ create_iscsi_target /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/cinder/brick/iscsi/iscsi.py:211
+2014-11-19 09:02:06.776 32616 DEBUG cinder.openstack.common.processutils [req-bc58aeab-22a7-4c58-ad61-24c2edfacd59 200d249486f547deba4ec519a8cf1a3a 8303ff367e8e45a3adc495a8d7215363 - - -] Running cmd (subprocess): sudo cinder-rootwrap /etc/cinder/rootwrap.conf tgt-admin --show execute /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/cinder/openstack/common/processutils.py:147
+2014-11-19 09:02:06.974 32616 DEBUG cinder.openstack.common.processutils [req-bc58aeab-22a7-4c58-ad61-24c2edfacd59 200d249486f547deba4ec519a8cf1a3a 8303ff367e8e45a3adc495a8d7215363 - - -] Result was 0 execute /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/cinder/openstack/common/processutils.py:171
+2014-11-19 09:02:06.976 32616 DEBUG cinder.openstack.common.processutils [req-bc58aeab-22a7-4c58-ad61-24c2edfacd59 200d249486f547deba4ec519a8cf1a3a 8303ff367e8e45a3adc495a8d7215363 - - -] Running cmd (subprocess): sudo cinder-rootwrap /etc/cinder/rootwrap.conf tgt-admin --show execute /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/cinder/openstack/common/processutils.py:147
+2014-11-19 09:02:07.177 32616 DEBUG cinder.openstack.common.processutils [req-bc58aeab-22a7-4c58-ad61-24c2edfacd59 200d249486f547deba4ec519a8cf1a3a 8303ff367e8e45a3adc495a8d7215363 - - -] Result was 0 execute /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/cinder/openstack/common/processutils.py:171
+2014-11-19 09:02:07.340 32616 DEBUG cinder.volume.manager [req-bc58aeab-22a7-4c58-ad61-24c2edfacd59 200d249486f547deba4ec519a8cf1a3a 8303ff367e8e45a3adc495a8d7215363 - - -] Zoning Mode: none initialize_connection /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/cinder/volume/manager.py:840
+2014-11-19 09:02:11.435 32616 DEBUG cinder.openstack.common.periodic_task [req-f7e025bc-b8f7-473f-b2c9-827319e8a14b - - - - -] Running periodic task VolumeManager._publish_service_capabilities run_periodic_tasks /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/cinder/openstack/common/periodic_task.py:178
+2014-11-19 09:02:11.436 32616 DEBUG cinder.manager [req-f7e025bc-b8f7-473f-b2c9-827319e8a14b - - - - -] Notifying Schedulers of capabilities ... _publish_service_capabilities /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/cinder/manager.py:128
+2014-11-19 09:02:11.445 32616 DEBUG cinder.openstack.common.periodic_task [req-f7e025bc-b8f7-473f-b2c9-827319e8a14b - - - - -] Running periodic task VolumeManager._report_driver_status run_periodic_tasks /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/cinder/openstack/common/periodic_task.py:178
+2014-11-19 09:02:11.445 32616 INFO cinder.volume.manager [req-f7e025bc-b8f7-473f-b2c9-827319e8a14b - - - - -] Updating volume status
+2014-11-19 09:02:11.446 32616 DEBUG cinder.volume.drivers.lvm [req-f7e025bc-b8f7-473f-b2c9-827319e8a14b - - - - -] Updating volume stats _update_volume_stats /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/cinder/volume/drivers/lvm.py:346
+2014-11-19 09:02:11.447 32616 DEBUG cinder.openstack.common.processutils [req-f7e025bc-b8f7-473f-b2c9-827319e8a14b - - - - -] Running cmd (subprocess): sudo cinder-rootwrap /etc/cinder/rootwrap.conf env LC_ALL=C vgs --noheadings --unit=g -o name,size,free,lv_count,uuid --separator : --nosuffix cinder-volumes execute /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/cinder/openstack/common/processutils.py:147
+2014-11-19 09:02:11.563 32616 DEBUG cinder.openstack.common.processutils [req-f7e025bc-b8f7-473f-b2c9-827319e8a14b - - - - -] Result was 0 execute /opt/openstack/venv/cinder/local/lib/python2.7/site-packages/cinder/openstack/common/processutils.py:171
+2014-11-19 09:02:17.713 32616 WARNING cinder.context [-] Arguments dropped when creating context: {u'user': u'200d249486f547deba4ec519a8cf1a3a', u'tenant': u'8303ff367e8e45a3adc495a8d7215363', u'user_identity': u'200d249486f547deba4ec519a8cf1a3a 8303ff367e8e45a3adc495a8d7215363 - - -'}
+2014-11-19 09:02:34.105 32616 INFO cinder.openstack.common.service [-] Caught SIGTERM, exiting
+2014-11-19 09:02:34.110 32610 INFO cinder.openstack.common.service [-] Caught SIGTERM, stopping children
+2014-11-19 09:02:34.111 32610 INFO cinder.openstack.common.service [-] Waiting on 1 children to exit
+2014-11-19 09:02:34.115 32610 INFO cinder.openstack.common.service [-] Child 32616 exited with status 1
