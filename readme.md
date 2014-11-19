@@ -1,0 +1,1 @@
+The success dir contains debug data for a successful migration on icehouse
